@@ -13,8 +13,7 @@ public class LoginTest {
 
         driver.get("https://www.saucedemo.com/");
 
-        System.out.println("Page Title: " + driver.getTitle());
-
+        System.out.println("SauceDemo Page Title: " + driver.getTitle());
         driver.quit();
     }
 }
